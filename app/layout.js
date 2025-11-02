@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { ClerkProvider, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
-import { CartProvider } from "./_context/CartContext";
+import { CartProvider } from "./_context/cartContext";
 
 const inter = Roboto({ subsets: ["latin"], weight: ["500", "700", "900"] });
 
