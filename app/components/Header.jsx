@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { useUser, UserButton } from "@clerk/nextjs";
 import { ShoppingCart } from "lucide-react";
-import { useCart } from "../_context/CartContext";
+import { useCart } from "../_context/cartContext";
 import CartSidebar from "./CartSidebar"; // ✅ استدعاء مكون السلة الجانبية
 
 function Header() {

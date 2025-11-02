@@ -2,7 +2,7 @@
 import { useStripe, useElements, PaymentElement } from "@stripe/react-stripe-js";
 import { useState, useEffect } from "react";
 import { useUser } from "@clerk/nextjs";
-import { useCart } from "../../_context/CartContext";
+import { useCart } from "../../_context/cartContext";
 import { useRouter } from "next/navigation";
 
 const CheckoutForm = ({ totalAmount }) => {

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { BadgeCheck, ShoppingCart, AlertOctagon } from "lucide-react";
-import { useCart } from "../../../_context/CartContext"; 
+import { useCart } from "../../../_context/cartContext"; 
 
 function ProductInfo({ product }) {
   const { addToCart } = useCart(); // ✅ دالة الإضافة من الـcontext

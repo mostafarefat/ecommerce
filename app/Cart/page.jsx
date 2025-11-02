@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Trash2 } from "lucide-react";
-import { useCart } from "../_context/CartContext";
+import { useCart } from "../_context/cartContext";
 
 
 export default function CartPage() {

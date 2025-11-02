@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { X, Trash2 } from "lucide-react";
-import { useCart } from "../_context/CartContext";
+import { useCart } from "../_context/cartContext";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 

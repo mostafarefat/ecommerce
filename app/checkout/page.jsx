@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import CheckoutForm from "./_components/CheckoutForm";
-import { useCart } from "../_context/CartContext";
+import { useCart } from "../_context/cartContext";
 
 // تحميل مفتاح Stripe
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY);
