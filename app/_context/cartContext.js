@@ -3,6 +3,7 @@ import { createContext, useContext, useState, useEffect } from "react";
 import { useUser } from "@clerk/nextjs";
 import CartApis from "../_utils/CartApis";
 
+
 const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
